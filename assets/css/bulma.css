@@ -4303,7 +4303,7 @@ a.nav-item.is-tab:hover {
 
 .nav-item a.is-tab.is-active,
 a.nav-item.is-tab.is-active {
-  border-bottom: 3px solid #00d1b2;
+  border-bottom: 3px solid #3273dc;
   color: #00d1b2;
   padding-bottom: calc(0.75rem - 3px);
 }
@@ -6792,6 +6792,12 @@ label.panel-block:hover {
 
 .hero.is-custom .subtitle {
   color: rgba(255, 255, 255, 0.9);
+}
+
+@media screen and (max-width: 768px) {
+  .hero.is-custom .nav-menu {
+    background-color: #3273dc;
+  }
 }
 
 .hero.is-success {
