@@ -6780,8 +6780,8 @@ label.panel-block:hover {
 }
 
 .hero.is-custom {
-    background-image:-webkit-linear-gradient(315deg, rgb(61, 24, 149) 0%, rgb(12, 58, 141) 50%, rgb(0, 89, 128) 100%);
-    background-image:linear-gradient(315deg, rgb(61, 24, 149) 0%, rgb(12, 58, 141) 50%, rgb(0, 89, 128) 100%);
+    background:-webkit-linear-gradient(45deg, rgb(101, 0, 255) 0%, rgb(103, 6, 187) 50%, rgb(141, 11, 191) 100%);
+    background:linear-gradient(45deg, rgb(101, 0, 255) 0%, rgb(103, 6, 187) 50%, rgb(141, 11, 191) 100%);
     color: #fff;
     text-decoration-color: whitesmoke
 }
