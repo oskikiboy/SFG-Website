@@ -6779,6 +6779,21 @@ label.panel-block:hover {
   }
 }
 
+.hero.is-custom {
+    background-image:-webkit-linear-gradient(315deg, rgb(61, 24, 149) 0%, rgb(12, 58, 141) 50%, rgb(0, 89, 128) 100%);
+    background-image:linear-gradient(315deg, rgb(61, 24, 149) 0%, rgb(12, 58, 141) 50%, rgb(0, 89, 128) 100%);
+    color: #fff;
+    text-decoration-color: whitesmoke
+}
+
+.hero.is-custom .title {
+    color: #fff
+}
+
+.hero.is-custom .subtitle {
+  color: rgba(255, 255, 255, 0.9);
+}
+
 .hero.is-success {
   background-color: #23d160;
   color: #fff;
