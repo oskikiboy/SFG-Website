@@ -4297,14 +4297,14 @@ a.nav-item.is-tab {
 
 .nav-item a.is-tab:hover,
 a.nav-item.is-tab:hover {
-  border-bottom-color: #00d1b2;
+  border-bottom-color: #3273dc;
   border-top-color: transparent;
 }
 
 .nav-item a.is-tab.is-active,
 a.nav-item.is-tab.is-active {
   border-bottom: 3px solid #3273dc;
-  color: #00d1b2;
+  color: #3273dc;
   padding-bottom: calc(0.75rem - 3px);
 }
 
