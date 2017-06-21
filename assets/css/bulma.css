@@ -4285,6 +4285,11 @@ a.nav-item.is-active {
   color: #363636;
 }
 
+.nav-item a.is-active-light,
+a.nav-item.is-active-light {
+  color: whitesmoke;
+}
+
 .nav-item a.is-tab,
 a.nav-item.is-tab {
   border-bottom: 1px solid transparent;
@@ -4719,6 +4724,11 @@ a.nav-item.is-tab.is-active {
 .panel-tabs a.is-active {
   border-bottom-color: #4a4a4a;
   color: #363636;
+}
+
+.panel-tabs a.is-active-light {
+  border-bottom-color: light;
+  color: whitesmoke;
 }
 
 .panel-list a {
