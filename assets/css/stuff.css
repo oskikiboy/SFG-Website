@@ -7,3 +7,26 @@
     user-select: none;
     cursor: default;
 }
+.alink {
+    color: #5555ee; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+.alink:visited {
+    color: #9999dd;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.alink:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.alink:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
