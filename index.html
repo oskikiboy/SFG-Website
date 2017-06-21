@@ -29,7 +29,8 @@
     </head>
     <style>
         .header-image {
-            background-image:linear-gradient(rgba(0,0,0,0.19),rgba(0,0,0,0.25)),url('https://s-media-cache-ak0.pinimg.com/originals/65/30/a2/6530a2bdeaf95365f0171fbeeaf93d3a.jpg');
+            /*background-color: #f5f5f5;*/
+            background-image:linear-gradient(rgba(0,0,0,0.19),rgba(0,0,0,0.25)),url('https://cdn.discordapp.com/attachments/289296501535145984/317889597675798528/bg-image.png');
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
@@ -38,13 +39,13 @@
         };
     </style>
     <body>
-        <section id="header" class="hero is-dark is-small header-image">
+        <section id="header" class="hero is-light is-small">
             <div class="hero-head">
                 <nav class="nav">
                     <div class="container">
-                        <div class="nav-left" style="padding-top: 6px">
+                        <div class="nav-left" style="padding-top: 6px; padding-left: 6px; overflow: hidden;">
                             <a href="index.html">
-                                <img src="https://cdn.discordapp.com/attachments/289296501535145984/317890137923125248/icon.png" style="border-radius: 100%;width: 42px;height: 42px;">
+                                <img src="https://cdn.discordapp.com/attachments/289296501535145984/317890137923125248/icon.png" style="border-radius: 100%;width: 42px;height: 42px">
                             </a>
                             &nbsp;
                             <a href="index.html">
@@ -63,9 +64,6 @@
                             <a class="nav-item is-tab" href="senior.html">Team</a>
                             <span class="nav-item">
                                 <a class="button is-info is-outlined" href="https://discord.gg/Z9F7Tp4">
-                                    <span class="icon">
-                                        <i class="fa fa-handshake-o"></i>
-                                    </span>
                                     <span>Join</span>
                                 </a>
                             </span>
@@ -85,13 +83,13 @@
                     </div>
                 </nav>
             </div>
-            <div class="hero-body">
+            <div class="hero-body header-image">
                 <div class="container has-text-centered">
                     <img src="https://cdn.discordapp.com/attachments/289296501535145984/317890137923125248/icon.png" style="border-radius: 100%;width:150px;">
                     <h1 class="title is-1">
-                        <span style="title">SFG</span>
+                        <span style="title; color: #f5f5f5;">SFG</span>
                     </h1>
-                    <h2 class="title is-3">
+                    <h2 class="title is-3" style="; color: #f5f5f5;">
                         SFG Community
                     </h2>
                     <br>
@@ -106,7 +104,7 @@
                 </div>
             </div>
         </section>
-        <section class="hero is-small is-custom">
+        <section class="hero is-small is-light">
             <div class="hero-body">
                 <div class="container">
                     <nav class="columns">

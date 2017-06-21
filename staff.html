@@ -31,19 +31,22 @@
     </head>
     <style>
         .header-image {
-            background-image:linear-gradient(rgba(0,0,0,0.19),rgba(0,0,0,0.25)),url('https://cdn.discordapp.com/attachments/289296501535145984/317889597675798528/bg-image.png');
+            background-color: whitesmoke;
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
         };
+        .hide{
+            display: none;
+        }
     </style>
     <body>
-        <section id="header" class="hero is-dark is-small header-image">
+        <section id="header" class="hero is-light is-small" style="padding-bottom: 10px">
             <div class="hero-head">
                 <nav class="nav">
                     <div class="container">
-                        <div class="nav-left" style="padding-top: 6px">
+                        <div class="nav-left" style="padding-top: 6px; padding-left: 6px; overflow: hidden;">
                             <a href="index.html">
                                 <img src="https://cdn.discordapp.com/attachments/289296501535145984/317890137923125248/icon.png" style="border-radius: 100%;width: 42px;height: 42px;">
                             </a>
@@ -64,9 +67,6 @@
                             <a class="nav-item is-tab is-active">Team</a>
                             <span class="nav-item">
                                 <a class="button is-info is-outlined" href="https://discord.gg/Z9F7Tp4">
-                                    <span class="icon">
-                                        <i class="fa fa-handshake-o"></i>
-                                    </span>
                                     <span>Join</span>
                                 </a>
                             </span>
@@ -76,7 +76,7 @@
                             <span></span>
                             <span></span>
                         </span>
-                        <div class="nav-right nav-menu is-hidden-tablet" id="nav-menu">
+                        <div class="nav-right nav-menu is-hidden-tablet custonav" id="nav-menu">
                             <a class="nav-item is-tab" href="index.html">Home</a>
                             <a class="nav-item is-tab" href="wip.html">Forums</a>
                             <a class="nav-item is-tab" href="faqs.html">FAQs</a>
@@ -86,36 +86,26 @@
                     </div>
                 </nav>
             </div>
-            <div class="hero-body">
-                <div class="container has-text-centered">
-                    <h1 class="title is-1">
-                        <span style="title">SFG</span>
-                    </h1>
-                    <h2 class="title is-4">
-                        Staff Members
-                    </h2>
-                </div>
-            </div>
         </section>
         <section id="nav" class="hero is-small header-image">
+            <div class="container" style="padding-top: 10px; padding-bottom: 20px">
+                <h1 class="title is-2">~&nbsp;SFG Staff</h1>
+            </div>
             <div class="hero-foot">
                 <nav class="tabs is-boxed is-fullwidth">
                     <div class="container">
                         <ul>
-                            <li><a href="senior.html" onmouseover="this.setAttribute('style', 'color: #363636;')" onmouseleave="this.setAttribute('style', 'color: whitesmoke;')" style="color: whitesmoke;">Senior Staff</a></li>
-                            <li style="background-color: #f5f5f5; border-top-left-radius: 3px; border-top-right-radius: 3px;"><a style="color: #363636;">Staff</a></li>
-                            <li><a href="junior.html"  onmouseover="this.setAttribute('style', 'color: #363636;')" onmouseleave="this.setAttribute('style', 'color: whitesmoke;')" style="color: whitesmoke;">Junior Staff</a></li>
+                            <li><a href="senior.html">Senior Staff</a></li>
+                            <li class="is-active"><a>Staff</a></li>
+                            <li><a href="junior.html">Junior Staff</a></li>
+
                         </ul>
                     </div>
                 </nav>
             </div>
         </section>
-        <section class="hero is-light is-small">
+        <section class="hero is-light is-small" style="border-top:1px solid rgb(217, 217, 217);">
             <br>
-            <div class="container">
-                <h1 class="title is-2">~&nbsp;Staff</h1>
-                <hr>
-            </div>
             <div class="container has-text-centered">
                 <div class="columns" style="padding: 10px;">
                     <div class="column">
