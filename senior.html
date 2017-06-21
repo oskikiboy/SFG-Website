@@ -36,6 +36,14 @@
             background-repeat: no-repeat;
             background-size: cover;
         };
+        html, body {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        body > * {
+            flex-shrink: 0;
+        }
     </style>
     <body>
         <section id="header" class="hero is-light is-small header-image" style="padding-bottom: 10px">

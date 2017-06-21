@@ -7,11 +7,3 @@
     user-select: none;
     cursor: default;
 }
-html, body {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-body > * {
-    flex-shrink: 0;
-}
