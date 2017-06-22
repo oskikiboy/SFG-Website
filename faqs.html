@@ -35,6 +35,7 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-image:linear-gradient(rgba(0,0,0,0.19),rgba(0,0,0,0.25)),url('https://cdn.discordapp.com/attachments/289296501535145984/317889597675798528/bg-image.png');
             height: 100%;
         };
         html, body {
@@ -52,7 +53,7 @@
         }
     </style>
     <body>
-        <section id="header" class="hero is-light is-small header-image" style="padding-bottom: 10px;">
+        <section id="header" class="hero is-dark is-small header-image" style="padding-bottom: 10px;">
             <div class="hero-head">
                 <nav class="nav">
                     <div class="container">
@@ -70,14 +71,17 @@
                                 <span class="icon"><i class="fa fa-check"></i></span>
                             </a>
                         </div>
-                        <div class="nav-right nav-menu is-hidden-mobile">
-                            <a class="nav-item is-tab" href="index.html">Home</a>
-                            <a class="nav-item is-tab" href="wip.html">Forums</a>
+                        <div class="nav-right nav-menu custonav">
+                            <a class="nav-item" href="index.html">Home</a>
                             <a class="nav-item is-active is-tab">FAQs</a>
-                            <a class="nav-item is-tab" href="senior.html">Team</a>
+                            <a class="nav-item" href="senior.html">Team</a>
                             <span class="nav-item">
                                 <a class="button is-info is-outlined" href="https://discord.gg/Z9F7Tp4">
-                                    <span>Join</span>
+                                    <span class="icon" style="padding-top: 7px;">
+                                        <i class="fa icon-discord" style="opacity: 1"></i>
+                                    </span>
+                                    &nbsp;
+                                    Join
                                 </a>
                             </span>
                         </div>
@@ -86,23 +90,16 @@
                             <span></span>
                             <span></span>
                         </span>
-                        <div class="nav-right nav-menu is-hidden-tablet custonav" id="nav-menu">
-                            <a class="nav-item is-tab" href="index.html">Home</a>
-                            <a class="nav-item is-tab" href="wip.html">Forums</a>
-                            <a class="nav-item is-active is-tab">FAQs</a>
-                            <a class="nav-item is-tab" href="senior.html">Team</a>
-                            <a class="nav-item is-tab" href="https://discord.gg/Z9F7Tp4">Join!</a>
-                        </div>
                     </div>
                 </nav>
             </div>
         </section>
         <section id="nav" class="hero is-small header-image">
             <div class="container" style="padding-top: 10px; padding-bottom: 20px">
-                <h1 class="title is-2">~&nbsp;Frequently asked Questions</h1>
+                <h1 class="title is-2" style="color: whitesmoke;">~&nbsp;Frequently asked Questions</h1>
             </div>
         </section>
-        <section class="hero is-light is-small">
+        <section class="hero is-dark is-small">
             <br>
             <div class="container has-text-centered">
                 <div class="box">
