@@ -219,6 +219,7 @@
         
 keys = []
 kekle = "84,79,82,78,65,68,79,83,85,88"
+acorn = "79,83,75,73,75,73,66,79,89,83,85,88"
 window.addEventListener("keydown", function(e) {
 	if(e.keyCode!=16) {
 		keys.push(e.keyCode);
@@ -233,6 +234,18 @@ if (keys.toString().indexOf(kekle)>-1) {
 		    $(".tag").html("Ded")
 		    $(".tag").addClass("is-dark")
                	$("img").attr("src", "https://oskikiboy.me/img/icon.png")
+    	}
+}, true);
+if (keys.toString().indexOf(acorn)>-1) {
+       		keys = [];
+       		$("h1").html("Acorn")
+            $(".ded").html("Alive")
+       		$(".nav-item").html("acorn")
+       		$("strong").html("Acorn")
+       		$("small").html("Acorn#4444")
+		    $(".tag").html("alive")
+		    $(".tag").addClass("is-light")
+               	$("img").attr("src", "acorndev.cf/assets/img/acorn.png")
     	}
 }, true);
         </script>
