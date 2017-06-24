@@ -6591,13 +6591,22 @@ label.panel-block:hover {
   .hero.is-dark .nav-menu .nav-item {
     border-top-color: rgba(245, 245, 245, 0.2);
   }
-  .hero.is-dark .nav-menu {
-    background-image:linear-gradient(rgba(0,0,0,0.29),rgba(0,0,0,0.29)),url('https://cdn.discordapp.com/attachments/289296501535145984/317889597675798528/bg-image.png');
+   .hero.is-dark .nav-menu  {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: 
+    /* top, transparent grey, faked with gradient */ 
+    linear-gradient(
+      rgba(0,0,0,0.29), 
+      rgba(0,0,0,0.29)
+    ),
+    /* bottom, image */
+    url(https://cdn.discordapp.com/attachments/289296501535145984/317889597675798528/bg-image.png);
+}
   }
+    
 }
 
 .hero.is-primary {
