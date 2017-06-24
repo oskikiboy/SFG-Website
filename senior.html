@@ -50,7 +50,7 @@
     <body style="height: 100%">
         <section id="header" class="hero is-dark is-small header-image" style="padding-bottom: 10px">
             <div class="hero-head">
-                <nav class="nav">
+                <nav class="nav" style="background-color:rgba(0,0,0,0.29)">
                     <div class="container">
                         <div class="nav-left" style="padding-top: 6px; padding-left: 6px; overflow: hidden;">
                             <a href="index.html">
@@ -66,14 +66,17 @@
                                 <span class="icon"><i class="fa fa-check"></i></span>
                             </a>
                         </div>
-                        <div class="nav-right nav-menu is-hidden-mobile">
+                        <div class="nav-right nav-menu custonav" id="nav-menu">
                             <a class="nav-item is-tab" href="index.html">Home</a>
-                            <a class="nav-item is-tab" href="wip.html">Forums</a>
                             <a class="nav-item is-tab" href="faqs.html">FAQs</a>
                             <a class="nav-item is-tab is-active">Team</a>
                             <span class="nav-item">
                                 <a class="button is-info is-outlined" href="https://discord.gg/Z9F7Tp4">
-                                    <span>Join</span>
+                                    <span class="icon" style="padding-top: 7px;">
+                                        <i class="fa icon-discord" style="opacity: 1"></i>
+                                    </span>
+                                    &nbsp;
+                                    Join
                                 </a>
                             </span>
                         </div>
@@ -82,13 +85,6 @@
                             <span></span>
                             <span></span>
                         </span>
-                        <div class="nav-right nav-menu is-hidden-tablet custonav" id="nav-menu">
-                            <a class="nav-item is-tab" href="index.html">Home</a>
-                            <a class="nav-item is-tab" href="wip.html">Forums</a>
-                            <a class="nav-item is-tab" href="faqs.html">FAQs</a>
-                            <a class="nav-item is-tab is-active">Team</a>
-                            <a class="nav-item is-tab" href="https://discord.gg/Z9F7Tp4">Join</a>
-                        </div>
                     </div>
                 </nav>
             </div>
@@ -202,52 +198,38 @@
                     </div>
                 </div>
             </div>
-        <br>
-        <br>
-        <br>
+            <br>
+            <br>
+            <br>
         </section>
-    <footer class="footer">
-        <div class="container">
-            <div class="content has-text-centered">
-                <p>
-                    The <strong>SFG</strong> webpage by <a href="https://github.com/oskikiboy">oskikiboy</a> and <a href="https://gitlab.com/Acorn_">Acorn</a>. <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>.
-                </p>
+        <footer class="footer">
+            <div class="container">
+                <div class="content has-text-centered">
+                    <p>
+                        The <strong>SFG</strong> webpage by <a href="https://github.com/oskikiboy">oskikiboy</a> and <a href="https://gitlab.com/Acorn_">Acorn</a>. <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>.
+                    </p>
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
         <script>
-        
-keys = []
-kekle = "84,79,82,78,65,68,79,83,85,88"
-acorn = "79,83,75,73,75,73,66,79,89,83,85,88"
-window.addEventListener("keydown", function(e) {
-	if(e.keyCode!=16) {
-		keys.push(e.keyCode);
-	}
-if (keys.toString().indexOf(kekle)>-1) {
-       		keys = [];
-       		$("h1").html("oskikiboy")
-            $(".ded").html("Ded")
-       		$(".nav-item").html("kekle")
-       		$("strong").html("oskikiboy")
-       		$("small").html("@oskikiboy#5467")
-		    $(".tag").html("Ded")
-		    $(".tag").addClass("is-dark")
-               	$("img").attr("src", "https://oskikiboy.me/img/icon.png")
-    	}
-}, true);
-if (keys.toString().indexOf(acorn)>-1) {
-       		keys = [];
-       		$("h1").html("Acorn")
-            $(".ded").html("Alive")
-       		$(".nav-item").html("acorn")
-       		$("strong").html("Acorn")
-       		$("small").html("Acorn#4444")
-		    $(".tag").html("alive")
-		    $(".tag").addClass("is-light")
-               	$("img").attr("src", "acorndev.cf/assets/img/acorn.png")
-    	}
-}, true);
+            keys = []
+            kekle = "84,79,82,78,65,68,79,83,85,88"
+            window.addEventListener("keydown", function(e) {
+                if(e.keyCode!=16) {
+                    keys.push(e.keyCode);
+                }
+                if (keys.toString().indexOf(kekle)>-1) {
+                    keys = [];
+                    $("h1").html("oskikiboy")
+                    $(".ded").html("Ded")
+                    $(".nav-item").html("kekle")
+                    $("strong").html("oskikiboy")
+                    $("small").html("@oskikiboy#5467")
+                    $(".tag").html("Ded")
+                    $(".tag").addClass("is-dark")
+                    $("img").attr("src", "https://oskikiboy.me/img/icon.png")
+                }
+            }, true);
         </script>
     </body>
 </html>

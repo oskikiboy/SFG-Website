@@ -6519,7 +6519,7 @@ label.panel-block:hover {
 }
 
 .hero.is-dark .nav {
-  box-shadow: 0 1px 0 rgba(245, 245, 245, 0.2);
+  box-shadow: 0 0px 0 rgba(245, 245, 245, 0.2);
 }
 
 @media screen and (max-width: 768px) {
@@ -6590,6 +6590,13 @@ label.panel-block:hover {
   }
   .hero.is-dark .nav-menu .nav-item {
     border-top-color: rgba(245, 245, 245, 0.2);
+  }
+  .hero.is-dark .nav-menu {
+    background-image:linear-gradient(rgba(0,0,0,0.29),rgba(0,0,0,0.29)),url('https://cdn.discordapp.com/attachments/289296501535145984/317889597675798528/bg-image.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
